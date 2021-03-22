@@ -31,22 +31,22 @@ public class small_game {
 		int mostN = sc.nextInt();
 		int maxN = 0;
 		if (num0 > num1 && num0 > num2) {
-			maxN = num0;
+			maxN = 0;
 			System.out.println("The numer 0 is most frequency");
 		}else if (num1 > num0 && num1 > num2) {
-			maxN = num1;
+			maxN = 1;
 			System.out.println("The numer 1 is most frequency");
 		}else if (num2 > num0 && num2 > num1) {
-			maxN = num2;
+			maxN = 2;
 			System.out.println("The numer 2 is most frequency");
 		}else {
 			System.out.println("No number is most frequency!");
 		}
-		/*if (mostN == maxN) {
+		if (mostN == maxN) {
 			System.out.println("You win the prize!");
 		}else {
 			System.out.println("You dont get a prize ");
-		}*/
+		}
 		System.out.println("The frequencies of number 0: "+num0);
 		System.out.println("The frequencies of number 1: "+num1);
 		System.out.println("The frequencies of number 2: "+num2);
